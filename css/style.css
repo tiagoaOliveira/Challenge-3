@@ -6,14 +6,14 @@
 }
 @font-face {
     font-family: Darkergrotesque-bold;
-    src: url("/exercicios/landingpagegrid/fonts/DarkerGrotesque-Bold.ttf");
+    src: url("../fonts/DarkerGrotesque-Bold.ttf");
 }
 @font-face {
     font-family: Darkergrotesque-SemiBold;
-    src: url("/exercicios/landingpagegrid/fonts/DarkerGrotesque-SemiBold.ttf");
+    src: url("../fonts/DarkerGrotesque-SemiBold.ttf");
 }
 html {
-    background-image: url(/exercicios/landingpagegrid/media/bg-desktop.svg);
+    background-image: url(../media/bg-desktop.svg);
     background-color: #674BB1;
     background-repeat: no repeat;
 }
@@ -75,7 +75,7 @@ html {
 }
 @media (max-width: 425px){
 html {
-    background-image: url(/exercicios/landingpagegrid/media/bg-mobile.svg);
+    background-image: url(../media/bg-mobile.svg);
     background-repeat: no-repeat;
 }
 .container {
